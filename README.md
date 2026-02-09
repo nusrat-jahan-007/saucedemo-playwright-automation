@@ -29,38 +29,16 @@ Test Runner: Playwright Test
 
 📁 Project Folder Structure (POM)
 
-project-root/
-│
-├── actions/
-│   ├── Q1loginactions.js
-│   ├── Q2loginactions.js
-│   ├── Q2productsactions.js
-│   ├── Q2cartactions.js
-│   ├── Q2checkoutactions.js
-│   ├── Q3loginactions.js
-│   ├── Q3productsactions.js
-│   ├── Q3cartactions.js
-│   └── Q3checkoutactions.js
-│
-├── pages/
-│   ├── Q1loginpage.js
-│   ├── Q2loginpage.js
-│   ├── Q2productspage.js
-│   ├── Q2cartpage.js
-│   ├── Q2checkoutpage.js
-│   ├── Q3loginpage.js
-│   ├── Q3productspage.js
-│   ├── Q3cartpage.js
-│   └── Q3checkoutpage.js
-│
-├── tests/
-│   ├── Q1-saucedemo.spec.js
-│   ├── Q2-saucedemo.spec.js
-│   └── Q3-saucedemo.spec.js
-│
-├── playwright.config.js
-├── package.json
-└── README.md
+Project/
+├── Actions/ # Reusable functions and helper actions
+├── allure-results/ # Test report results (auto-generated)
+├── pages/ # Page Object Model files for each page
+├── tests/ # Test scripts
+├── .gitignore # Files/folders to ignore in Git
+├── README.md # Project documentation
+├── package.json # Node.js dependencies and scripts
+├── package-lock.json # Locked dependency versions
+└── playwright.config.js # Playwright configuration
 
 🧪 Test Scenarios
 Q1 – Locked Out User Login
